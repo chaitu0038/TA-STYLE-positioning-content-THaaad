@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	font-size: 16px;
+	line-height: 1.5;
+}
+.header{
+	font-size: 0;
+	padding: 16px 0;
+	position: relative;
+}
+.header1{
+
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+
+}
+.logo img{
+	width: 180px;
+}
+.logo,
+.nav{
+	display: inline-block;
+	vertical-align: middle;
+	position: fixed;
+}
+.nav{
+	width: calc(100% - 180px);
+	font-size: 16px;
+	text-align: right;
+}
+.nav a{
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: lowercase;
+	margin-left: 32px;
+}
+
+.article{
+	font-size: 0;
+	padding: 60px 0;
+}
+.article-img{
+	width: 100%;
+	vertical-align: middle;
+}
+.col{
+	width: 50%;
+	display: inline-block;
+	font-size: 20px;
+	vertical-align: middle;
+}
+h1{
+	font-size: 36px;
+	margin-bottom: 16px;
+}
+p{
+	font-size: 20px;
+	line-height: 1.7;
+}
+
+
+.clearfix::before, .clearfix::after{
+	content: "";
+	display: table;
+}
+.clearfix::after{
+	clear: both;
+}
+.section{
+	text-align: center;
+}
+.column{
+	width: 30%;
+	display: inline-block;
+}
+
+.btn{
+	float: right;
+	padding: 32px;
+	border-radius: 50px;
+}

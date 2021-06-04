@@ -178,4 +178,15 @@ body{
 	font-size: 12px;
 }
 
+.footer{
+	padding: 40px 0;
+}
+.footer nav{
+	float: right;
+}
+.footer a{
+	color: #5385c1;
+	text-decoration: none;
+	margin: 24px;
+}
 
